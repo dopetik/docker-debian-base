@@ -1,4 +1,4 @@
-FROM jgoerzen/debian-base-security
+FROM dopetik/debian-base-security
 
 COPY setup/ /usr/local/debian-base-setup/
 RUN /usr/local/debian-base-setup/040-debian-base-vnc
